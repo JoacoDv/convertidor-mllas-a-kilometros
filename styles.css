@@ -1,0 +1,41 @@
+:root {
+    --background-color: #0c1555;
+    --light-color: #d4ca9a;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--light-color);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 250px 0px 10px 0px;
+    font-size: 26px;
+}
+
+input {
+    background-color: #cccccc;
+    color: var(--background-color);
+}
+
+input::placeholder {
+    color: var(--background-color);
+}
+
+button {
+    color: var(--background-color);
+    background-color: #cccccc;
+    border: 3px solid #9a99a1;
+}
+
+button:active {
+    background-color: #9d9ca0;
+}
+
